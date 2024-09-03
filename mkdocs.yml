@@ -1,5 +1,91 @@
 site_name: Zhihao Li's Knowledge Book
+site_description: Knowledge Book
 site_url: https://lzhms.github.io/KBook
+repo_name: LZHMS/KBook
+repo_url: https://github.com/LZHMS/KBook
 theme:
   name: material
+  custom_dir: overrides
+  language: en
+  logo: images/icon.png
+  favicon: images/icon.png
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - navigation.footer
 
+copyright: Copyright &copy; 2024 Zhihao Li
+nav:
+  - 主页:
+    - index.md
+    - Page 1: HomePage/page1.md
+  - 计算机理论:
+    - ComputerTheory/index.md
+    - 自主可控嵌入式系统: ComputerTheory/EmbeddedSystem.md
+  - 数学基础:
+    - Mathematics/index.md
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: LZHMS/KBook
+      branch: main
+  - git-authors
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/LZHMS
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:zhihaoli2003@outlook.com
+    - icon: fontawesome/brands/mastodon
+      link: https://lzhms.github.io/    
+
+
+extra_css:
+  - stylesheets/extra.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
