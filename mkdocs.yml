@@ -1,0 +1,5 @@
+site_name: Zhihao Li's Knowledge Book
+site_url: https://lzhms.github.io/KBook
+theme:
+  name: material
+
