@@ -2,22 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://lzhms.github.io/KBook/</loc>
-         <lastmod>2024-09-03</lastmod>
+         <lastmod>2024-09-07</lastmod>
     </url>
     <url>
-         <loc>https://lzhms.github.io/KBook/ComputerTheory/</loc>
-         <lastmod>2024-09-03</lastmod>
+         <loc>https://lzhms.github.io/KBook/DeepLearning/</loc>
+         <lastmod>2024-09-07</lastmod>
     </url>
     <url>
-         <loc>https://lzhms.github.io/KBook/ComputerTheory/EmbeddedSystem/</loc>
-         <lastmod>2024-09-03</lastmod>
+         <loc>https://lzhms.github.io/KBook/DeepLearning/BasicTerms/</loc>
+         <lastmod>2024-09-07</lastmod>
     </url>
     <url>
-         <loc>https://lzhms.github.io/KBook/HomePage/page1/</loc>
-         <lastmod>2024-09-03</lastmod>
+         <loc>https://lzhms.github.io/KBook/Home/Mission/</loc>
+         <lastmod>2024-09-07</lastmod>
+    </url>
+    <url>
+         <loc>https://lzhms.github.io/KBook/Innovation/</loc>
+         <lastmod>2024-09-07</lastmod>
+    </url>
+    <url>
+         <loc>https://lzhms.github.io/KBook/Innovation/Algorithms/</loc>
+         <lastmod>2024-09-07</lastmod>
+    </url>
+    <url>
+         <loc>https://lzhms.github.io/KBook/Innovation/DataProcessing/</loc>
+         <lastmod>2024-09-07</lastmod>
+    </url>
+    <url>
+         <loc>https://lzhms.github.io/KBook/Innovation/Frameworks/</loc>
+         <lastmod>2024-09-07</lastmod>
     </url>
     <url>
          <loc>https://lzhms.github.io/KBook/Mathematics/</loc>
-         <lastmod>2024-09-03</lastmod>
+         <lastmod>2024-09-07</lastmod>
+    </url>
+    <url>
+         <loc>https://lzhms.github.io/KBook/Mathematics/AdvancedMathematics/</loc>
+         <lastmod>2024-09-07</lastmod>
     </url>
 </urlset>
